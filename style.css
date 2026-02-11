@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex; /* elementlarni yonga ot'kazib beradi gorizontal bo'yicha*/
+    justify-content: start;  /*birinchi boshiga olib berradi*/
+    justify-content: center;  /*o'rtaga olib qo'yadi*/
+    justify-content: end;  /*tugashiga qo'yadi*/
+    justify-content: space-around;  /*ikki tomonga bo'lib beradi*/
+    justify-content: space-between;  /*ikki tomonga yopishtirib beradi va o'rtadagini o'rtaga olib berradi*/
+    justify-content: space-evenly;  /*ikki tonga bolib beradi va o'rtaroqga olib keladi*/
+
+    align-items: start;  /**/ /*birinchi boshiga olib berradi*/
+    align-items: center; /*o'rtaga olib qo'yadi*/
+    align-items: end;  /*tugashiga qo'yadi*/
+}
+.one_div {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.two_div,
+.one_div {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;  /*qirralarini dumalo qilish uchun*/ 
+}
+.two_div{
+    background-color: red;
+}
+nav{
+    display: flex;
+}
+nav ul :nth-child(2)
